@@ -1,7 +1,7 @@
 ;(function(){
     window.$ = window.jQuery = jQuery;
     function jQuery(selector){
-       return new Init (selector);//实现$('');
+       return new Init (selector);
     }
     function Init(selector){   //构建函数
       let nodeList = document.querySelectorAll(selector);
